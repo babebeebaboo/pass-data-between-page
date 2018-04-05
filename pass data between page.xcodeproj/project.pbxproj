@@ -12,6 +12,7 @@
 		3BDB84A420765F2A00909769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB84A220765F2A00909769 /* Main.storyboard */; };
 		3BDB84A620765F2A00909769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB84A520765F2A00909769 /* Assets.xcassets */; };
 		3BDB84A920765F2A00909769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB84A720765F2A00909769 /* LaunchScreen.storyboard */; };
+		3BDB84B12076606C00909769 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB84B02076606C00909769 /* Page2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3BDB84A520765F2A00909769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDB84A820765F2A00909769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDB84AA20765F2A00909769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDB84B02076606C00909769 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3BDB849E20765F2A00909769 /* AppDelegate.swift */,
 				3BDB84A020765F2A00909769 /* ViewController.swift */,
+				3BDB84B02076606C00909769 /* Page2ViewController.swift */,
 				3BDB84A220765F2A00909769 /* Main.storyboard */,
 				3BDB84A520765F2A00909769 /* Assets.xcassets */,
 				3BDB84A720765F2A00909769 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BDB84A120765F2A00909769 /* ViewController.swift in Sources */,
+				3BDB84B12076606C00909769 /* Page2ViewController.swift in Sources */,
 				3BDB849F20765F2A00909769 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8R853UY7D;
 				INFOPLIST_FILE = "pass data between page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.supakornbabe.pass-data-between-page";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8R853UY7D;
 				INFOPLIST_FILE = "pass data between page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.supakornbabe.pass-data-between-page";
 				PRODUCT_NAME = "$(TARGET_NAME)";
